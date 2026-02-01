@@ -45,6 +45,9 @@ export const metadata = {
     description: 'Add your logo or watermark to multiple images easily and quickly. Privacy-first, browser-based image processing.',
     images: ['/logo.png'],
   },
+  verification: {
+    google: 'da6b566d7c77b39a',
+  },
   robots: {
     index: true,
     follow: true,
