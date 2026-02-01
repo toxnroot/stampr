@@ -1,0 +1,221 @@
+{
+    "Navbar": {
+        "links": {
+            "home": "Home",
+            "blog": "Blog",
+            "about": "About",
+            "contact": "Contact"
+        },
+        "menu": "Menu"
+    },
+    "HomePage": {
+        "title": "Stampr - Professional Image Stamping Tool",
+        "features": {
+            "1": {
+                "title": "Lightning Fast",
+                "description": "Process hundreds of images in seconds directly in your browser."
+            },
+            "2": {
+                "title": "Complete Privacy",
+                "description": "Your images are never uploaded to servers; processing happens locally."
+            },
+            "3": {
+                "title": "Full Customization",
+                "description": "Control size, position, opacity, and even rotation for perfect results."
+            }
+        },
+        "howItWorks": {
+            "title": "How Stampr Works?",
+            "subtitle": "Four simple steps to protect your images and brand",
+            "steps": {
+                "1": {
+                    "title": "Upload Logo",
+                    "description": "Choose your branding logo in PNG or JPG format."
+                },
+                "2": {
+                    "title": "Upload Images",
+                    "description": "Select the batch of images you want to stamp."
+                },
+                "3": {
+                    "title": "Adjust Settings",
+                    "description": "Use live preview to fine-tune opacity and positioning."
+                },
+                "4": {
+                    "title": "Download All",
+                    "description": "Click process and download your images in a single ZIP."
+                }
+            }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "1": {
+                "q": "Are my images safe?",
+                "a": "Yes, Stampr uses client-side processing, meaning images never leave your device."
+            },
+            "2": {
+                "q": "What formats are supported?",
+                "a": "We support PNG, JPG, and WebP for both logos and images."
+            },
+            "3": {
+                "q": "Why is Stampr free?",
+                "a": "Our goal is to provide a simple, effective tool for creators and small businesses."
+            }
+        },
+        "footer": "All rights reserved.",
+        "privacyLink": "Privacy Policy",
+        "termsLink": "Terms of Use"
+    },
+    "ImageLogoTool": {
+        "title": "Logo Stamping Tool",
+        "uploadLogo": "Choose Logo File",
+        "uploadImages": "Choose Images (Multiple)",
+        "scale": "Logo Size",
+        "opacity": "Logo Opacity",
+        "rotation": "Logo Rotation",
+        "position": "Logo Position",
+        "positions": {
+            "topLeft": "Top Left",
+            "topRight": "Top Right",
+            "bottomLeft": "Bottom Left",
+            "bottomRight": "Bottom Right",
+            "center": "Center"
+        },
+        "watermark": "Watermark",
+        "exportFormat": "Export Format",
+        "quality": "Image Quality",
+        "process": "Process Images",
+        "processing": "Processing...",
+        "download": "Download",
+        "downloadAll": "Download All as ZIP",
+        "error": "Please select logo and images",
+        "logoSelected": "Logo Selected",
+        "imagesSelected": "Images Selected",
+        "resultsReady": "Results Ready",
+        "success": "Success",
+        "processedText": "Successfully processed {count} images",
+        "customPosition": "Custom Position Control",
+        "offsetX": "Horizontal Offset (X)",
+        "offsetY": "Vertical Offset (Y)",
+        "pixels": "pixels",
+        "renamePattern": "File Naming Pattern",
+        "renameHint": "Use [name] for original filename (e.g., [name]_stamped)",
+        "dropFilesHere": "Drop files here",
+        "orClickToSelect": "or click to select",
+        "fileSelected": "File selected",
+        "filesSelected": "files selected",
+        "noResults": "No results yet",
+        "livePreview": "Live Preview",
+        "previewHint": "Upload logo and images to see preview here",
+        "previewDisclaimer": "This is a quick preview, final quality may vary",
+        "uploadHint": "Upload logo and images to start processing"
+    },
+    "PrivacyPage": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated: February 1, 2026",
+        "content": {
+            "1": {
+                "title": "Data Collection",
+                "text": "We do not collect any images you upload. All images are processed locally in your browser and are never sent to our servers."
+            },
+            "2": {
+                "title": "Cookies & Analytics",
+                "text": "We use cookies and localStorage to save your preferences and improve our service. We also use Google Analytics to understand how visitors use our site. This helps us improve the user experience. You can control cookie preferences through our cookie consent banner."
+            },
+            "3": {
+                "title": "Google AdSense",
+                "text": "We use Google AdSense to display advertisements. Google, as a third-party vendor, uses cookies to serve ads based on your previous visits to our website and other sites. You may opt out of personalized advertising by visiting Google's Ads Settings."
+            },
+            "4": {
+                "title": "Social Media Sharing",
+                "text": "Our blog posts include social sharing buttons (Facebook, Twitter, LinkedIn, WhatsApp). When you use these buttons, the respective social media platforms may collect information according to their own privacy policies."
+            },
+            "5": {
+                "title": "Log Files & Server Data",
+                "text": "Like many websites, we collect standard log file information including IP addresses, browser type, and access times. This data is used solely for analytics and improving our service."
+            }
+        }
+    },
+    "TermsPage": {
+        "title": "Terms of Use",
+        "lastUpdated": "Last Updated: February 1, 2026",
+        "content": {
+            "1": {
+                "title": "Acceptable Use",
+                "text": "You can use this tool for personal and commercial purposes for free."
+            },
+            "2": {
+                "title": "Disclaimer",
+                "text": "This tool is provided 'as is' without any warranties. We are not responsible for any data loss resulting from the use of the tool."
+            },
+            "3": {
+                "title": "Prohibited Uses",
+                "text": "You agree not to use the tool to process illegal or copyrighted material that you do not have permission to use. We are not responsible for the content of the images processed through our tool."
+            }
+        }
+    },
+    "AboutPage": {
+        "title": "Empowering Creators to Protect Their Work",
+        "subtitle": "Stampr is the fastest, most private way to watermark your images.",
+        "story": {
+            "title": "Our Story",
+            "text": "Stampr was born from a simple frustration: why does adding a logo to a batch of images have to be so slow, expensive, or privacy-invasive? We realized that most tools either require you to upload your sensitive photos to a remote server or charge you for basic batch processing. We believed there had to be a better way.",
+            "text2": "So we built Stampr. A tool that leverages the power of your modern browser to process images instantly, right on your device. No uploads, no waiting, no privacy risks."
+        },
+        "values": {
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "Your photos never leave your device. All processing happens locally."
+            },
+            "speed": {
+                "title": "Lightning Speed",
+                "desc": "Powered by WebAssembly and modern browser tech for instant results."
+            },
+            "simplicity": {
+                "title": "Radical Simplicity",
+                "desc": "No accounts, no complex software. Just drag, drop, and stamp."
+            }
+        },
+        "team": {
+            "title": "Built with ❤️ by Team Stampr",
+            "cta": "Start Stamping Now"
+        }
+    },
+    "ContactPage": {
+        "title": "Get in Touch",
+        "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+        "info": {
+            "email": "Email Us",
+            "phone": "Call Us",
+            "location": "Visit Us"
+        },
+        "social": {
+            "title": "Connect With Us",
+            "subtitle": "Follow our latest updates"
+        }
+    },
+    "UX": {
+        "notFoundTitle": "Page Not Found",
+        "notFoundDesc": "Oops! The page you are looking for does not exist or has been moved.",
+        "returnHome": "Return Home",
+        "loadingText": "Loading...",
+        "errorTitle": "Something went wrong!",
+        "errorDesc": "We apologize for the inconvenience. Please try again.",
+        "tryAgain": "Try Again"
+    },
+    "Footer": {
+        "aboutHeading": "About Stampr",
+        "aboutText": "The easiest way to protect your brand identity. Watermark hundreds of images in seconds directly from your browser.",
+        "quickLinks": "Quick Links",
+        "legal": "Legal Help",
+        "contact": "Get in Touch",
+        "rights": "All rights reserved.",
+        "links": {
+            "home": "Home",
+            "about": "About Us",
+            "contact": "Contact Us",
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions",
+            "blog": "Blog"
+        }
+    }
+}
