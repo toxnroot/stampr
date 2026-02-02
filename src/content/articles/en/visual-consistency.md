@@ -1,6 +1,6 @@
 ---
 title: "The Power of Visual Consistency"
-date: "2026-02-04"
+date: "2025-01-30"
 description: "Why using the same logo and colors across all platforms builds trust and recognition."
 image: "/images/blog/consistency.png"
 author: "Team Stampr"

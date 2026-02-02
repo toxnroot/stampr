@@ -1,6 +1,6 @@
 ---
 title: "How to Watermark Images Like a Pro"
-date: "2026-02-02"
+date: "2025-01-30"
 description: "Learn the essential steps to protect your digital assets with professional watermarks using our Logo Stamp tool."
 image: "/images/blog/watermark.png"
 author: "Team Stampr"

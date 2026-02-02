@@ -1,6 +1,6 @@
 ---
 title: "Feature Spotlight: What Makes Our Tool Unique"
-date: "2026-02-05"
+date: "2025-01-30"
 description: "Explore the powerful features designed to make watermarking fast, easy, and professional."
 image: "/images/blog/features.png"
 author: "Team Stampr"

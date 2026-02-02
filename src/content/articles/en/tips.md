@@ -1,6 +1,6 @@
 ---
 title: "Top 5 Tips for Effective Watermarking"
-date: "2026-02-06"
+date: "2025-01-30"
 description: "Maximize protection without ruining your image. Here are our top tips for watermarking."
 image: "/images/blog/tips.png"
 author: "Team Stampr"

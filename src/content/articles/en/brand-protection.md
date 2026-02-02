@@ -1,6 +1,6 @@
 ---
 title: "Protecting Your Brand Identity in the Digital Age"
-date: "2026-02-03"
+date: "2025-01-30"
 description: "Discover why safeguarding your brand's visual identity is crucial and how digital tools can help."
 image: "/images/blog/brand-protection.png"
 author: "Team Stampr"

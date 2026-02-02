@@ -1,6 +1,6 @@
 ---
 title: "قوة التناسق البصري"
-date: "2026-02-04"
+date: "2025-01-30"
 description: "لماذا يبني استخدام نفس الشعار والألوان عبر جميع المنصات الثقة والتميز."
 image: "/images/blog/consistency.png"
 author: "Team Stampr"
