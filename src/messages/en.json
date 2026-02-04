@@ -2,6 +2,7 @@
     "Navbar": {
         "links": {
             "home": "Home",
+            "tools": "Tools",
             "blog": "Blog",
             "about": "About",
             "contact": "Contact"
@@ -9,7 +10,13 @@
         "menu": "Menu"
     },
     "HomePage": {
-        "title": "Stampr - Professional Image Stamping Tool",
+        "title": "Stampr - Professional Online Image Tools",
+        "subtitle": "Process your images locally with lightning speed and 100% privacy.",
+        "hero": {
+            "title": "The Ultimate Suite of Professional Image Tools",
+            "subtitle": "Resize, Convert, and Protect your images instantly. 100% Private, 100% Free.",
+            "cta": "Explore All Tools"
+        },
         "features": {
             "1": {
                 "title": "Lightning Fast",
@@ -66,7 +73,10 @@
         "termsLink": "Terms of Use"
     },
     "ImageLogoTool": {
-        "title": "Logo Stamping Tool",
+        "title": "Protect your brand images in seconds",
+        "metaTitle": "Bulk Watermark Tool | Add Logo to Images for Free",
+        "metaDescription": "Protect your brand identity by adding logos or watermarks to hundreds of images at once. Local processing ensures your photos never leave your device.",
+        "keywords": "watermark, logo stamping, add logo to photos, bulk watermark, image protection, watermark images free",
         "uploadLogo": "Choose Logo File",
         "uploadImages": "Choose Images (Multiple)",
         "scale": "Logo Size",
@@ -217,5 +227,89 @@
             "terms": "Terms & Conditions",
             "blog": "Blog"
         }
+    },
+    "ToolsPage": {
+        "title": "Professional Image & Design Tools",
+        "subtitle": "Fast, Private, and 100% Free. All-in-one suite to process images directly in your browser without uploading to servers.",
+        "metaTitle": "Professional Browser-Based Image Tools | Stampr",
+        "metaDescription": "Free, private, and fast tools for image processing. Resize, compress, watermark, and convert images to WebP, JPEG, PNG, AVIF, and ICO without leaving your browser.",
+        "keywords": "image tools, photo editor online, image compressor, image converter, logo stampr, webp converter, avif converter",
+        "tools": {
+            "imageResizer": {
+                "title": "Image Resizer & Compressor",
+                "description": "Reduce file size up to 90% while maintaining perfect quality. Optimize for web performance."
+            },
+            "imageConverter": {
+                "title": "Format Converter",
+                "description": "Switch between formats instantly: JPEG, PNG, WebP, AVIF, ICO, and more."
+            },
+            "logoStamping": {
+                "title": "Bulk Watermark (Stampr)",
+                "description": "Protect your brand by adding logos or watermarks to hundreds of images in seconds."
+            }
+        },
+        "openTool": "Open Tool"
+    },
+    "ImageResizer": {
+        "title": "Compress and optimize your images",
+        "metaTitle": "Free Image Compressor & Optimizer | Bulk Image Resizer",
+        "metaDescription": "Reduce image file size by up to 90%. Bulk compress JPEG, PNG, and WebP images locally for maximum privacy and web performance.",
+        "keywords": "compress image, reduce image size, optimize photos, bulk image compressor, jpeg optimizer, webp compression",
+        "uploadImages": "Choose Images (Multiple)",
+        "quality": "Target Quality",
+        "highQuality": "Excellent (90%)",
+        "mediumQuality": "Good (70%)",
+        "lowQuality": "Efficient (50%)",
+        "extraSmall": "Smallest (30%)",
+        "process": "Compress Images",
+        "processing": "Optimizing...",
+        "success": "Optimization Complete!",
+        "processedText": "Successfully compressed {count} images",
+        "exportFormat": "Export Format",
+        "before": "Before",
+        "after": "After",
+        "savings": "Savings",
+        "sizeIncrease": "Size Increase",
+        "download": "Download",
+        "downloadAll": "Download All (ZIP)",
+        "totalSavings": "Total Space Saved",
+        "renamePattern": "File Naming Pattern",
+        "renameHint": "Use [name] for original filename",
+        "dropFilesHere": "Drop images here",
+        "orClickToSelect": "or click to select",
+        "filesSelected": "images selected"
+    },
+    "ImageConverter": {
+        "title": "Professional Image Converter",
+        "description": "Convert images between formats locally and privately",
+        "metaTitle": "Fast Online Image Converter | WebP, PNG, JPG, AVIF, ICO",
+        "metaDescription": "Convert images to any format instantly in your browser. Supports WebP, JPEG, PNG, AVIF, BMP, and ICO. 100% private and secure.",
+        "keywords": "convert image, image format converter, webp to jpg, png to webp, avif to webp, ico converter, bulk image conversion",
+        "uploadImages": "Select Images",
+        "targetFormat": "Target Format",
+        "quality": "Quality",
+        "process": "Convert Images",
+        "processing": "Converting...",
+        "success": "Conversion Complete!",
+        "processedText": "Successfully converted {count} images",
+        "before": "Original",
+        "after": "Converted",
+        "download": "Download",
+        "downloadAll": "Download All (ZIP)",
+        "dropFilesHere": "Drop images here",
+        "orClickToSelect": "or click to select",
+        "filesSelected": "images selected",
+        "formats": {
+            "jpeg": "JPEG (Standard)",
+            "png": "PNG (Lossless)",
+            "webp": "WebP (Modern)",
+            "avif": "AVIF (High Compression)",
+            "ico": "ICO (Favicon)",
+            "bmp": "BMP (Windows)",
+            "tiff": "TIFF (Raw)",
+            "gif": "GIF (Static)"
+        },
+        "icoWarning": "ICO format is limited to 256x256 pixels. Larger images will be resized automatically.",
+        "privacyNote": "All processing happens 100% locally in your browser. Your images stay on your device for maximum privacy."
     }
 }
