@@ -10,7 +10,18 @@ export async function GET() {
     // Forced to 2024 to ensure NO "future date" rejection on any system.
     const safeDate = '2024-12-01';
 
-    const staticPaths = ['', '/about', '/contact', '/blog', '/privacy', '/terms'];
+    const staticPaths = [
+        '',
+        '/about',
+        '/contact',
+        '/blog',
+        '/privacy',
+        '/terms',
+        '/tool',
+        '/tool/logo-stamping',
+        '/tool/image-converter',
+        '/tool/image-resizer'
+    ];
 
     // XML Header must be the VERY FIRST character
     let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';

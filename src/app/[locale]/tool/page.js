@@ -1,19 +1,37 @@
 import { getTranslations } from 'next-intl/server';
+import { getBreadcrumbSchema } from '@/lib/schema';
+import Script from 'next/script';
 import ToolGrid from '@/app/components/Tools/ToolGrid';
 import { ArrowRightLeft, Stamp, Scaling, Zap, ShieldCheck, Image } from 'lucide-react';
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'ToolsPage' });
+    const baseUrl = 'https://stampr.netlify.app';
 
     return {
         title: t('metaTitle'),
         description: t('metaDescription'),
         keywords: t('keywords'),
+        alternates: {
+            canonical: `${baseUrl}/${locale}/tool`,
+            languages: {
+                en: `${baseUrl}/en/tool`,
+                ar: `${baseUrl}/ar/tool`,
+            },
+        },
         openGraph: {
             title: t('metaTitle'),
             description: t('metaDescription'),
-            keywords: t('keywords'),
+            url: `${baseUrl}/${locale}/tool`,
+            type: 'website',
+            images: [{ url: '/logo.png' }],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: t('metaTitle'),
+            description: t('metaDescription'),
+            images: ['/logo.png'],
         },
     };
 }
@@ -21,6 +39,12 @@ export async function generateMetadata({ params }) {
 export default async function Page({ params }) {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'ToolsPage' });
+    const baseUrl = 'https://stampr.netlify.app';
+
+    const breadcrumbSchema = getBreadcrumbSchema([
+        { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `${baseUrl}/${locale}` },
+        { name: t('title'), url: `${baseUrl}/${locale}/tool` },
+    ]);
 
     const tools = [
         {
@@ -54,6 +78,11 @@ export default async function Page({ params }) {
 
     return (
         <div className="relative min-h-screen overflow-hidden">
+            <Script
+                id="breadcrumb-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
             {/* Background Orbs */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-brand-primary/10 rounded-full blur-[128px] -z-10 animate-pulse" />
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[128px] -z-10" />

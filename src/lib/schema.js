@@ -71,3 +71,21 @@ export function getBreadcrumbSchema(items) {
         })),
     };
 }
+
+// SoftwareApplication Schema for tools
+export function getSoftwareAppSchema({ name, description, url, category }) {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: name,
+        description: description,
+        applicationCategory: category || 'MultimediaApplication',
+        operatingSystem: 'Any',
+        offers: {
+            '@type': 'Offer',
+            price: '0',
+            priceCurrency: 'USD',
+        },
+        url: url,
+    };
+}

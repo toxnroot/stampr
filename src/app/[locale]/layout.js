@@ -22,8 +22,34 @@ export async function generateMetadata({ params }) {
     : 'Add your logo, compress images, or convert formats easily with total privacy. Batch image processing in your browser without uploads.';
 
   const keywords = isAr
-    ? ['علامة مائية', 'إضافة شعار للصور', 'ضغط الصور', 'تحويل الصور', 'معالجة الصور', 'حماية الصور', 'محول الصور', 'تصغير الصور', 'خصوصية']
-    : ['watermark', 'logo stamping', 'image watermark', 'batch watermark', 'privacy', 'browser tool', 'image processing', 'compress image', 'image converter'];
+    ? [
+      'أدوات تعديل الصور أونلاين',
+      'معالجة الصور الجماعية',
+      'إضافة علامة مائية للصور',
+      'محول صيغ الصور مجانا',
+      'تحسين الصور لمحركات البحث',
+      'أدوات صور تحافظ على الخصوصية',
+      'تعديل الصور دون رفعها',
+      'حماية الصور من السرقة',
+      'ختم الصور بالشعار',
+      'أدوات احترافية للمصورين',
+      'تصغير حجم الصور',
+      'خصوصية تامة'
+    ]
+    : [
+      'online image editor',
+      'batch image processing',
+      'bulk photo watermark',
+      'free image converter',
+      'image optimizer for web',
+      'privacy-focused image tools',
+      'no upload image tools',
+      'secure photo processing',
+      'client-side image editing',
+      'branding tools for creators',
+      'compress image',
+      'image logo stamper'
+    ];
 
   return {
     metadataBase: new URL('https://stampr.netlify.app'),
